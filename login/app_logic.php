@@ -3,7 +3,7 @@ session_set_cookie_params(0);
 session_start();
 $errors = [];
 $user_id = "";
-$db = mysqli_connect("localhost", "deefgu_test", "Deepak@24", "deefgu_test");
+$db = mysqli_connect("localhost", "username", "password", "dbname");
 
 // Login
 $user_id=$password="";
